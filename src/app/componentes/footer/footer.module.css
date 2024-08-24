@@ -1,0 +1,22 @@
+.footer{
+    background-color: #F2811D;
+}
+
+
+.footer_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footer_container div{
+    padding-left: 20px;
+}
+
+.footer p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px 0px;
+}

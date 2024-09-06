@@ -26,3 +26,19 @@
     transition: 1.3s;
     
 }
+
+/* responsividade */
+
+@media (max-width: 700px) {
+    .links_topo{
+        display: none;
+    }
+
+    .container_header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        background-color: #F2E205;
+    }
+}

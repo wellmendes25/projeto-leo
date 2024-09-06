@@ -1,0 +1,39 @@
+.carouselContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.carouselSlide img {
+    width: 50vw;
+    height: 70vh;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.proxima_imagem,
+.imagem_anterior {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 24px;
+}
+
+.proxima_imagem {
+    right: 200px;
+}
+
+.imagem_anterior {
+    left: 200px;
+}

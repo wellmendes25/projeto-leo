@@ -1,0 +1,40 @@
+.container_links{
+    position: absolute;
+    top: 8.5%;
+    left: 0;
+    background-color: rgb(236, 221, 80);
+    width: 20%;
+    height: 100vh;
+}
+
+.container_links ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container_links li{
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(230, 132, 12);
+    
+
+}
+
+.container_links a{
+    color: rgb(241, 236, 236);
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container_links a:hover{
+    color: rgb(223, 161, 27);
+    font-weight: bold;
+    font-size: 23px;
+    transition: 1.5s;
+}

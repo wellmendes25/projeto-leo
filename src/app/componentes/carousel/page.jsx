@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from "react";
 import estilos from './carousel.module.css';
 import Image from "next/image";

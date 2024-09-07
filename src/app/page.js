@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import estilos from "./page.module.css";
-import ImagemCaridade from '../../public/caridade-2.jpg'
+
 import Caridade3 from '../../public/caridade.jpg'
 import Videosrc from '../../public/video1.mp4'
 import Carousel from "./componentes/carousel/page";

@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.imagem_main{
+.video_main{
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -73,7 +73,10 @@
 
 .carousel{
     margin: auto;
-    
+    padding: 20px;
+    width: 60%;
+    background-color: rgba(240, 248, 255, 0.801);
+    border-radius: 15px;
 }
 
 @keyframes suavidade {

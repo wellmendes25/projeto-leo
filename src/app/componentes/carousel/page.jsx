@@ -11,8 +11,8 @@ import { GrLinkPrevious } from "react-icons/gr";
 // imagens
 import imagem1 from '../imagens/imagem1.jpg';
 import imagem2 from '../imagens/imagem2.jpg';
-import imagem3 from '../imagens/imagem3.webp';
-import imagem4 from '../imagens/imagem4.webp';
+import imagem3 from '../imagens/imagem3.jpg';
+import imagem4 from '../imagens/imagem4.jpg';
 
 const Carousel = () => {
     const imagens = [imagem1, imagem2, imagem3, imagem4];

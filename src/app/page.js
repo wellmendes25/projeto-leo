@@ -3,7 +3,7 @@ import Image from "next/image";
 import estilos from "./page.module.css";
 import ImagemCaridade from '../../public/caridade-2.jpg'
 import Caridade3 from '../../public/caridade.jpg'
-
+import Videosrc from '../../public/video1.mp4'
 import Carousel from "./componentes/carousel/page";
 
 
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main>
       <section className={estilos.main_container}>
-        <Image className={estilos.imagem_main} src={ImagemCaridade}></Image>
+        <video className={estilos.video_main} src={Videosrc} autoPlay muted loop></video>
         <h1>Leo Clube sertões</h1>
       </section>
 

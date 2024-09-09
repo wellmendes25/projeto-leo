@@ -27,7 +27,7 @@ export default function Rodape(){
                 
             </div>
 
-            <p>{'\u00A9'} {new Date().getFullYear()} Site desenvolvido por Wellison Mendes e Mateus Araújo</p>
+            <p>{'\u00A9'} {new Date().getFullYear()} Site desenvolvido por Wellison Mendes e Mateus Araujo</p>
         </footer>
     )
 }

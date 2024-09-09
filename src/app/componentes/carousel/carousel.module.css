@@ -2,26 +2,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     position: relative;
     width: 80%;
     margin: auto;
 }
 
-.carouselSlide img {
-    
-    width: 50vw;
-    height: 70vh;
-    border-radius: 8px;
-    object-fit: cover;
-    margin: auto;
-    opacity: 0.7;
-    transition: opacity 0.5s ease;
+.carouselSlide {
+    margin-bottom: 20px;
+}
 
+.carouselSlide img {
+    width: 60vw;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.5;
 }
 
 .carouselSlide img:hover{
-    opacity: 1;
-    transition: 1.5s;
+    opacity: 1.0;
 }
 
 .proxima_imagem,
@@ -31,173 +31,38 @@
     border: none;
     padding: 10px;
     cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%,-50%);
-    z-index: 10;
     font-size: 24px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: rgba(70, 73, 73, 0.5);
+    margin: 0 10px;
 }
 
-.proxima_imagem {
-    position: relative;
-    right: -5%;
-}
-
-.imagem_anterior {
-    position: relative;
-    left: -5%;
+.botaoContainer {
+    display: flex;
+    justify-content: center;
 }
 
 /* responsividade */
 
-@media (max-width:900px) {
-
+@media (max-width: 980px) {
     .carouselSlide img {
         width: 50vw;
         height: 50vh;
-        border-radius: 8px;
-        object-fit: cover;
-        margin: auto;
-        opacity: 0.7;
-        transition: opacity 0.5s ease;
-    
     }
-
 }
-    .proxima_imagem {
-        position: relative;
-        right: -5%;
-    }
-    
-    .imagem_anterior {
-        position: relative;
-        left: -5%;
-    }
-    
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
     .carouselSlide img {
-        width: 80vw;
+        width: 70vw;
         height: 50vh;
-        border-radius: 8px;
-        object-fit: cover;
-        margin: auto;
-        opacity: 0.7;
-        transition: opacity 0.5s ease;
-    
     }
-
-    .proxima_imagem,
-.imagem_anterior {
-    background: none;
-    color: rgb(250, 244, 244);
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%,-50%);
-    z-index: 10;
-    font-size: 18px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(70, 73, 73, 0.5);
-}
-    
-    .proxima_imagem {
-        position: relative;
-        right: -1%;
-    }
-    
-    .imagem_anterior {
-        position: relative;
-        left: -1%;
-    }
-    
 }
 
-@media (max-width:500px) {
-
+@media (max-width: 480px) {
     .carouselSlide img {
         width: 80vw;
-        height: 45vh;
-        border-radius: 8px;
-        object-fit: cover;
-        margin: auto;
-        opacity: 0.7;
-        transition: opacity 0.5s ease;
-    
+        height: 35vh;
     }
-
-    .proxima_imagem,
-    .imagem_anterior {
-        color: rgb(250, 244, 244);
-        border: none;
-        padding: 10px;
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%,-50%);
-        z-index: 10;
-        font-size: 14px;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        background-color: rgba(70, 73, 73, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-        
-
-    .proxima_imagem {
-        position: relative;
-        right: -1%;
-    }
-    
-    .imagem_anterior {
-        position: relative;
-        left: -1%;
-    }
-    
-}
-
-@media (max-width:400px) {
-
-
-    .proxima_imagem,
-    .imagem_anterior {
-        color: rgb(250, 244, 244);
-        border: none;
-        padding: 10px;
-        cursor: pointer;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%,-50%);
-        z-index: 10;
-        font-size: 128px;
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        background-color: rgba(70, 73, 73, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .proxima_imagem {
-        position: relative;
-        right: -0,5%;
-    }
-    
-    .imagem_anterior {
-        position: relative;
-        left: -0.5%;
-    }
-    
 }

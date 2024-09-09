@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main>
       <section className={estilos.main_container}>
-        <video className={estilos.video_main} src={Videosrc} autoPlay muted loop></video>
+        <video className={estilos.video_main} alt="video de pessoas caridosas" src={Videosrc} autoPlay muted loop></video>
         <h1>Leo Clube sertões</h1>
       </section>
 
@@ -21,7 +21,7 @@ export default function Home() {
         
           <div className={estilos.second_section}>
             <div className={estilos.div_in_section}>
-              <Image className={estilos.imagem_sec_section} src={Caridade3}></Image>
+              <Image className={estilos.imagem_sec_section} alt="Imagem de caridade" src={Caridade3}></Image>
             </div>
             <div className={estilos.div_in_section}>
               <h2>Nossos conceitos:</h2>

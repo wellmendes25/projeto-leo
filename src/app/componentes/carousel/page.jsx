@@ -32,17 +32,24 @@ const Carousel = () => {
 
     return (
         <div className={estilos.carouselContainer}>
-            <button className={estilos.imagem_anterior} onClick={anteriorImagem}>
-                <GrLinkPrevious />
-            </button>
-
             <div className={estilos.carouselSlide}>
-                <Image src={imagens[mudarImagem]} alt="carousel" />
+                <Image 
+                    src={imagens[mudarImagem]} 
+                    alt="carousel" 
+                
+
+                />
             </div>
 
-            <button className={estilos.proxima_imagem} onClick={proximaImagem}>
-                <GrLinkNext />
-            </button>
+            <div className={estilos.botaoContainer}>
+                <button className={estilos.imagem_anterior} onClick={anteriorImagem}>
+                    <GrLinkPrevious />
+                </button>
+
+                <button className={estilos.proxima_imagem} onClick={proximaImagem}>
+                    <GrLinkNext />
+                </button>
+            </div>
         </div>
     );
 };

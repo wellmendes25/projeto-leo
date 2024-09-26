@@ -13,7 +13,7 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/effect-coverflow';
 
 export const metadata = {
-  title: "Leos clubles",
+  title: "Leo clubes",
   description: "criado por W.M.S",
 };
 

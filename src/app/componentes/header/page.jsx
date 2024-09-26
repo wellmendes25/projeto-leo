@@ -12,8 +12,8 @@ export default function Topo(){
                
                 <Image className={estilos.imagem_topo} alt="imagem do topo" src={Topo_Imagem}></Image>
                 <nav>
-                    <Link className={estilos.links_topo} href={""}>Home |</Link>
-                    <Link className={estilos.links_topo} href={""}>Quem somos |</Link>
+                    <Link className={estilos.links_topo} href={"/"}>Home |</Link>
+                    <Link className={estilos.links_topo} href={"/componentes/quemSomos"}>Quem somos |</Link>
                     <Link className={estilos.links_topo} href={""}>Contatos</Link>
                 </nav>
             </div>

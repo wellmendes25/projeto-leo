@@ -1,12 +1,14 @@
 import estilos from './link.module.css';
-export default function Navegacao(){
-return(
-    <nav className={estilos.container_links}>
-    <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">quem somos</a></li>
-        <li><a href="">Contatos</a></li>
-    </ul>
-</nav> 
-)
+import Link from 'next/link';
+
+export default function Navegacao() {
+    return (
+        <nav className={estilos.container_links}>
+            <ul>
+                <li><Link href="/" className={estilos.link}>Home</Link></li>
+                <li><Link href="/componentes/quem-somos" className={estilos.link} aria-label="Saiba mais sobre nós">Quem somos</Link></li>
+                <li><Link href="/componentes/contatos" className={estilos.link} aria-label="Entre em contato conosco">Contatos</Link></li>
+            </ul>
+        </nav>
+    );
 }

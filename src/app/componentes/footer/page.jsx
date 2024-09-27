@@ -27,7 +27,7 @@ export default function Rodape(){
                 
             </div>
 
-            <p>{'\u00A9'} {new Date().getFullYear()} Site desenvolvido por Wellison Mendes e Mateus Araujo e Suellen Moron</p>
+            <p>{'\u00A9'} {new Date().getFullYear()} Site desenvolvido por <a href="https://www.linkedin.com/in/wellison-mendes-422013140/" target='_blank'>Wellison</a>, <a href="https://www.linkedin.com/in/mateus-araujo-1b7285238/" target='_blank'>Mateus</a> e <a href="https://www.linkedin.com/in/suellen-moron-803220224/" target='_blank'>Suellen</a></p>
         </footer>
     )
 }

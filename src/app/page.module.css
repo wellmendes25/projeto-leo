@@ -31,6 +31,7 @@
 .second_section{
     display: flex;
     flex-wrap: wrap;
+ 
     
 }
 
@@ -76,8 +77,8 @@
 /* carousel */
 
 .carousel{
-    margin: auto;
-    padding: 20px;
+    margin:  auto;
+    padding: 30px;
     width: 70%;
     background-color: rgba(240, 248, 255, 0.801);
     border-radius: 15px;

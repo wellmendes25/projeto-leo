@@ -1,7 +1,7 @@
 'use client'
 
 import estilos from './carousel.module.css';
-import { Navigation, Pagination, Scrollbar, A11y, EffectCoverflow, } from 'swiper/modules';
+import { Pagination, EffectCoverflow, } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 
@@ -17,11 +17,19 @@ const Carousel = () => {
     return (
         <section className={estilos.carouselContainer}>
             <Swiper 
-                modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}
-                effect={'coverflow'}
-                slidesPerView={1}
-                pagination={{ clickable: true }}
-                navigation
+                     effect={'coverflow'}
+                     grabCursor={true}
+                     centeredSlides={true}
+                     slidesPerView={'auto'}
+                     coverflowEffect={{
+                       rotate: 50,
+                       stretch: 0,
+                       depth: 100,
+                       modifier: 1,
+                       slideShadows: true,
+                     }}
+                     pagination={true}
+                     modules={[EffectCoverflow, Pagination]}
             >
                 {imagens.map((item) => (
                     <SwiperSlide key={item.id}>

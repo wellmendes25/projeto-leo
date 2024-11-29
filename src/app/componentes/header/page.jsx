@@ -13,7 +13,7 @@ export default function Topo(){
                 <Image className={estilos.imagem_topo} src={Topo_Imagem}></Image>
                 <nav>
                     <Link className={estilos.links_topo} href={""}>Home |</Link>
-                    <Link className={estilos.links_topo} href={""}>Quem somos |</Link>
+                    <Link className={estilos.links_topo} href="/quem-somos">Quem Somos |</Link>
                     <Link className={estilos.links_topo} href={""}>Contatos</Link>
                 </nav>
             </div>

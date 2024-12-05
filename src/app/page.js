@@ -6,8 +6,6 @@ import Caridade3 from '../../public/caridade.jpg'
 import Videosrc from '../../public/video1.mp4'
 import Carousel from "./componentes/carousel/page";
 
-
-
 export default function Home() {
   return (
     <main>

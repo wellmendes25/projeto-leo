@@ -1,4 +1,4 @@
-// pages/quem-somos.js
+
 import React from 'react';
 import './quem-somos.css';
 

@@ -3,7 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Whatsapp from '../../../../public/icons8-whatsapp-50.png';
 import Instagram from '../../../../public/icons8-instagram-50.png';
-import Internet from '../../../../public/icons8-internet-50.png'
+import Internet from '../../../../public/icons8-internet-50.png';
+
+
 export default function Rodape(){
     return(
         <footer className={estilos.footer}>

@@ -7,10 +7,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // imagens
 const imagens = [
-    { id: 1, imagem: '/imagem1.jpg' },
-    { id: 2, imagem: '/imagem2.jpg' },
-    { id: 3, imagem: '/imagem3.jpg' },
-    { id: 4, imagem: '/imagem4.jpg' },
+    { id: 1, imagem: '/imagem11-g.jpg' },
+    { id: 2, imagem: '/imagem22-g.jpg' },
+    { id: 3, imagem: '/imagem33-g.jpg' },
+    { id: 4, imagem: '/imagem44-g.jpg' },
 ];
 
 const Carousel = () => {
@@ -32,7 +32,7 @@ const Carousel = () => {
                      modules={[EffectCoverflow, Pagination]}
             >
                 {imagens.map((item) => (
-                    <SwiperSlide key={item.id}>
+                    <SwiperSlide className={estilos.slider} key={item.id}>
                         <img
                             src={item.imagem} 
                             alt={`Slider ${item.id}`} 

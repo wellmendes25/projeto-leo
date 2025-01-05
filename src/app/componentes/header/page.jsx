@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import estilos from './header.module.css';
-import Topo_Imagem from '../../../../public/imagem-logo.png'
+import Topo_Imagem from '../../../../public/imagem-logo-l.png'
 import MenuHamburguer from "../menu-hamburguer/menu/page";
 
 export default function Topo(){

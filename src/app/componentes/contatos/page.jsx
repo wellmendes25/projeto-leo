@@ -1,6 +1,5 @@
 import style from './contatos.module.css'
 
-
 export default function Contatos(){
     return(
         <>

@@ -3,7 +3,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Whatsapp from '../../../../public/icons8-whatsapp-50.png';
 import Instagram from '../../../../public/icons8-instagram-50.png';
-import Internet from '../../../../public/icons8-internet-50.png'
+import Internet from '../../../../public/icons8-internet-50.png';
+
+
 export default function Rodape(){
     return(
         <footer className={estilos.footer}>
@@ -27,7 +29,7 @@ export default function Rodape(){
                 
             </div>
 
-            <p>{'\u00A9'} {new Date().getFullYear()} Site desenvolvido por Wellison Mendes e Mateus Araujo e Suellen Moron</p>
+            <p>{'\u00A9'} {new Date().getFullYear()} Site desenvolvido por <a href="https://www.linkedin.com/in/wellison-mendes-422013140/" target='_blank'>Wellison</a>, <a href="https://www.linkedin.com/in/mateus-araujo-1b7285238/" target='_blank'>Mateus</a> e <a href="https://www.linkedin.com/in/suellen-moron-803220224/" target='_blank'>Suellen</a></p>
         </footer>
     )
 }

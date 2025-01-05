@@ -14,7 +14,7 @@ export default function Topo(){
                 <nav>
                     <Link className={estilos.links_topo} href={"/"}>Home |</Link>
                     <Link className={estilos.links_topo} href={"/componentes/quemSomos"}>Quem somos |</Link>
-                    <Link className={estilos.links_topo} href={""}>Contatos</Link>
+                    <Link className={estilos.links_topo} href={"/componentes/contatos"}>Contatos</Link>
                 </nav>
             </div>
         </header>

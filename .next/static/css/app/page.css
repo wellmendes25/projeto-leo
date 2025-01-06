@@ -170,13 +170,21 @@
     .page_carousel__AwKOi{
         margin: auto;
         padding: 20px;
-        width: 60%;
+        width: 80%;
         border-radius: 15px;
     }
+
+    
 }
 
 @media (max-width: 500px) {
 
+    .page_carousel__AwKOi{
+        margin: auto;
+        padding: 20px;
+        width: 90%;
+        border-radius: 15px;
+    }
 
     .page_main_container__7Fj6k h1{
         font-size: 60px;

@@ -20,21 +20,57 @@
 @media (max-width: 1280px) {
     .imageContainer {
         width: 100%; 
-        height: 250px;
-      
-    }
-}
-
-@media (max-width: 980px) {
-    .imageContainer {
-        width: 100%; 
-        height:250px;
+        height: 350px;
       
     }
 
     .slider{
     
-        width:80%;
+        width: 40%;
+    }
+    
+
+}
+
+@media (max-width: 980px) {
+    .imageContainer {
+        width: 450px; 
+        height:280px;
+      
+    }
+
+    .slider{
+    
+        width:50%;
+        
+    }
+}
+
+@media (max-width: 580px) {
+    .imageContainer {
+        width: 250px; 
+        height:200px;
+      
+    }
+
+    .slider{
+    
+        width:70%;
+        
+    }
+}
+
+@media (max-width: 450px) {
+    .imageContainer {
+        width: 100%; 
+        height:250px;
+       
+      
+    }
+
+    .slider{
+    
+        width:90%;
         
     }
 }

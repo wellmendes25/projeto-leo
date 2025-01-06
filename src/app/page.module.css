@@ -56,11 +56,12 @@
     height: auto;
     padding: 10px;
     border-radius: 5px;
+    background-color: #7B480A;
   
     
 }
 
-.div_in_section .container_p h4{
+.div_in_section .container_p h2{
     color: #F2E205;
     font-size: 29px;
     padding-bottom: 10px;
@@ -96,14 +97,12 @@
 
 
 
-
 /* carousel */
 
 .carousel{
     margin:  auto;
     padding: 50px 0px;
     width: 70%;
-    background-color: rgba(240, 248, 255, 0.801);
     border-radius: 15px;
 }
 
@@ -125,8 +124,7 @@
     .carousel{
         margin: auto;
         padding: 20px;
-        width: 70%;
-        background-color: rgba(240, 248, 255, 0.801);
+        width: 90%;
         border-radius: 15px;
     }
 
@@ -134,14 +132,26 @@
 }
 
 @media (max-width:1146px) {
-    .div_in_section img{
-        width: 100%;
-        height: 100%;
+    .carousel{
+        margin: auto;
+        padding: 20px;
+        width: 90%;
+        border-radius: 15px;
     }
+
 
 }
 
 @media (max-width:950px) {
+
+    .carousel{
+        margin: auto;
+        padding: 20px;
+        width: 60%;
+        border-radius: 15px;
+    }
+
+
     .second_section{
         display: flex;
         flex-direction: column;
@@ -157,16 +167,12 @@
     .carousel{
         margin: auto;
         padding: 20px;
-        width: 98%;
-        background-color: rgba(240, 248, 255, 0.801);
+        width: 60%;
         border-radius: 15px;
     }
 }
 
 @media (max-width: 500px) {
-
-    
-
 
 
     .main_container h1{

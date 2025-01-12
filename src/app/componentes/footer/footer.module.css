@@ -28,7 +28,8 @@
 
 .footer a{
     font-family: 'Times New Roman', Times, serif;
-    color: #F2E205;
+    color: black;
+    font-weight: bold;
     cursor: pointer;
     text-decoration: none;
 }

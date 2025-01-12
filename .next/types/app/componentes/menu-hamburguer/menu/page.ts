@@ -1,4 +1,4 @@
-// File: C:\Users\intel 05\OneDrive\Desktop\leo\projeto-leo\src\app\componentes\menu-hamburguer\menu\page.jsx
+// File: C:\Users\intel 05\OneDrive\Desktop\projeto-leo\src\app\componentes\menu-hamburguer\menu\page.jsx
 import * as entry from '../../../../../../src/app/componentes/menu-hamburguer/menu/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

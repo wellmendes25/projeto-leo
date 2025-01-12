@@ -7,10 +7,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // imagens
 const imagens = [
-    { id: 1, imagem: '/imagem11-g.jpg' },
-    { id: 2, imagem: '/imagem22-g.jpg' },
-    { id: 3, imagem: '/imagem33-g.jpg' },
-    { id: 4, imagem: '/imagem44-g.jpg' },
+    { id: 1, imagem: '/foto1.jpg' },
+    { id: 2, imagem: '/foto2.jpg' },
+    { id: 3, imagem: '/foto3.jpg' },
+    { id: 4, imagem: 'foto4.jpg' },
+    { id: 5, imagem: '/foto5.jpg' },
+    { id: 6, imagem: '/foto6.jpg' }
+    
 ];
 
 const Carousel = () => {

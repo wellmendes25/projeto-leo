@@ -147,6 +147,16 @@
 
 @media (max-width:950px) {
 
+    .page_main_container__7Fj6k h1{
+        font-size: 120px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 7px 1px 2px black;
+      
+    }
+    
+
     .page_carousel__AwKOi{
         margin: auto;
         padding: 20px;
@@ -167,6 +177,17 @@
 
 
 @media (max-width:700px) {
+
+    .page_main_container__7Fj6k h1{
+        font-size: 100px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 7px 1px 2px black;
+      
+    }
+    
+
     .page_carousel__AwKOi{
         margin: auto;
         padding: 20px;
@@ -178,6 +199,16 @@
 }
 
 @media (max-width: 500px) {
+
+    .page_main_container__7Fj6k h1{
+        font-size: 80px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 7px 1px 2px black;
+      
+    }
+    
 
     .page_carousel__AwKOi{
         margin: auto;
@@ -194,6 +225,18 @@
         text-shadow: 4px 1px 2px black;
       
     }
+}
+
+@media (max-width:300px) {
+    .page_main_container__7Fj6k h1{
+        font-size: 50px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 2px 1px 2px black;
+      
+    }
+    
 }
 /*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/componentes/carousel/carousel.module.css ***!

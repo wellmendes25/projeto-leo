@@ -144,6 +144,16 @@
 
 @media (max-width:950px) {
 
+    .main_container h1{
+        font-size: 120px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 7px 1px 2px black;
+      
+    }
+    
+
     .carousel{
         margin: auto;
         padding: 20px;
@@ -164,6 +174,17 @@
 
 
 @media (max-width:700px) {
+
+    .main_container h1{
+        font-size: 100px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 7px 1px 2px black;
+      
+    }
+    
+
     .carousel{
         margin: auto;
         padding: 20px;
@@ -175,6 +196,16 @@
 }
 
 @media (max-width: 500px) {
+
+    .main_container h1{
+        font-size: 80px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 7px 1px 2px black;
+      
+    }
+    
 
     .carousel{
         margin: auto;
@@ -191,4 +222,16 @@
         text-shadow: 4px 1px 2px black;
       
     }
+}
+
+@media (max-width:300px) {
+    .main_container h1{
+        font-size: 50px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 2px 1px 2px black;
+      
+    }
+    
 }

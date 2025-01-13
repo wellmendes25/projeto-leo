@@ -4,7 +4,7 @@
     background-image: url("../../../../public/banner-contact.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     box-shadow: 0px 3px 2px 0px #5858585c;
     background-color: #000000;
     position: relative;
@@ -187,3 +187,4 @@
     background-color: #f9a316;
 }
 
+/* responsividade */

@@ -17,19 +17,19 @@ export default function Contatos(){
         <div className={style.main}>
             <div className={style.conteudo}>
                 <div className={style.conteudoone}> 
-                    <img src="/telefone.png" alt="telefone" height="35px" width="40px"/>
-                    <h3>TELEFONE</h3>
-                    <p>Entre em contato conosco.</p>
+                    <img src="/whatsapp.png" alt="whatsapp" height="45px" width="50px"/>
+                    <h3>WHATSAPP</h3>
+                    <a className={style.buttoncard} href="">Clique aqui</a>
                 </div>
                 <div className={style.conteudotwo}>
-                    <img src="/email.png" alt="email" height="35px" width="40px"/>
+                    <img src="/email.png" alt="email" height="45px" width="50px"/>
                     <h3>EMAIL</h3>
-                    <p>entre em contato conosco.</p>
+                    <a className={style.buttoncard} href="">Clique aqui</a>
                 </div>
                 <div className={style.conteudothree}>
-                    <img src="/localizacao.png" alt="localização" height="35px" width="40px"/>
-                    <h3>NOS ENCONTRE</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <img src="/instagram.png" alt="instagram" height="45px" width="50px"/>
+                    <h3>INSTAGRAM</h3>
+                    <a className={style.buttoncard} href="">Clique aqui</a>
                 </div>
             </div>
             <div className={style.contact}>

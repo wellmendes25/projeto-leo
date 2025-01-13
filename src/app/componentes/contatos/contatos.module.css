@@ -1,41 +1,41 @@
+/* banner */
 .head{
     height: 41vh;
     width: 100%;
-    background-image: url("../../../../public/banner-contact.png");
+    background-image: url("../../../../public/banner-contato.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     box-shadow: 0px 3px 2px 0px #5858585c;
-    background-color: #000000;
     position: relative;
     font-weight: bold;
 }
 .bannerh1{
     position: absolute;
     color: white;
-    width: 25%;
+    width: 20%;
     top: 10%;
     left: 3%;
     font-size: 150%;
 }
 .hone{
-    font-size: 3em;
+    font-size: 4em;
     position: absolute;
     color: white;
-    top: 28%;
-    left: 17%;
+    top: 22%;
+    left: 15%;
 }
 .htwo{
     position: absolute;
     color: white;
     background-color: black;
-    height: 6vh;
+    height: 8vh;
     width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 130%;
+    font-size: 150%;
     top: 68%;
     left: 3%;
 }
@@ -50,9 +50,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    top: 65%;
-    left: 35%;
+    top: 68%;
+    left: 30%;
 }
+
+/* cards */
+
 .title{
     display: flex;
     justify-content: center;
@@ -78,46 +81,75 @@
     border-radius: 10px 0 0 10px ;
     width: 23%;
     height: 23vh;
-    padding: 25px 20px;
+    padding-top: 35px;
 }
 .conteudotwo{
-    background-color:#f9a316;
+    background-color:#ff7b23;
     border-radius: 10px;
     width: 25%;
     height: 25vh;
-    padding-left: 20px;
-    padding: 35px 20px;
+    padding-top: 40px;
+    font-weight: bold;
 }
 .conteudothree{
     background-color:#f2e205;
     border-radius: 0px 10px 10px 0;
     width: 23%;
     height: 23vh;
-    padding: 25px 20px;
+   padding-top: 35px;
 }
+.buttoncard{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 5px;
+    height: 5vh;
+    width: 10vw;
+    background-color: #ededed;
+    border: 3px solid rgb(23, 23, 23);
+    margin-top: 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+}
+
+/* hover */
+
 .conteudoone:hover{
     margin:10px 10px 10px 10px;
-    color: rgb(255, 153, 0);
+    color: rgb(255, 128, 0);
     font-size: 30px;
     margin-top: 15px;
     cursor: pointer;
     height: 26vh;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
 }
 .conteudotwo:hover{
     margin:10px 10px 10px 10px;
     color: rgb(255, 238, 0);
-    height: 30vh;
+    height: 28vh;
+    font-size: 31px;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
 }
 .conteudothree:hover{
     height: 26vh;
+    font-size: 30px;
     margin:10px 10px 10px 10px;
-    color: rgb(255, 153, 0);
+    color: rgb(255, 111, 0);
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
 }
+.buttoncard:hover {
+    background-color: #f9a316;
+    padding-top: 6px;
+    color: #ededed;
+    width: 12vw;
+    height: 6vh;
+}
+
+/* localização e formulario */
+
 .contact{
     display: flex;
     align-items: center;
@@ -187,4 +219,109 @@
     background-color: #f9a316;
 }
 
+<<<<<<< HEAD
 /* responsividade */
+=======
+/* responsividade */
+
+@media (max-width:1435px){
+    .bannerh1 {
+    position: absolute;
+    color: white;
+    width: 27%;
+    top: 10%;
+    left: 3%;
+    font-size: 150%;
+    }
+    .hone{
+    font-size: 3em;
+    position: absolute;
+    color: white;
+    top: 28%;
+    left: 14%;
+    }
+    .htwo{
+    font-size: 100%;
+    }
+    .bannertwo{
+    font-size: 160%;
+    }
+}
+@media (max-width:1329px){
+    .bannerh1 {
+        position: absolute;
+        color: white;
+        width: 28%;
+        top: 18%;
+        left: 3%;
+        font-size: 120%;
+    }
+    .hone{
+        font-size: 40px;
+        position: absolute;
+        color: white;
+        top: 34%;
+        left: 13%;
+    }
+}
+@media (max-width:1200px){
+    .bannertwo{
+        font-size: 125%;
+    }
+}
+@media (max-width:1090px){
+    .bannerh1 {
+        position: absolute;
+        color: white;
+        width: 28%;
+        top: 18%;
+        left: 3%;
+        font-size: 100%;
+    }
+    .hone{
+        font-size: 35px;
+        position: absolute;
+        color: white;
+        top: 34%;
+        left: 14%;
+    }
+
+}
+@media(max-width:1020px){
+    .hone{
+        font-size: 35px;
+        position: absolute;
+        color: white;
+        top: 34%;
+        left: 11%;
+    }
+}
+@media (max-width:300px){
+    .head{
+        height: 20vh;
+        width: 100vw;
+    }
+    .bannerh1 {
+        position: absolute;
+        color: white;
+        width: 15%;
+        top: 18%;
+        left: 3%;
+        font-size: 70%;
+    }
+    .hone{
+        font-size: 35px;
+        position: absolute;
+        color: white;
+        top: 34%;
+        left: 14%;
+    }
+    .htwo{
+        display: none;
+    }
+    .bannertwo{
+        display: none;
+    }
+}
+
+>>>>>>> 0b386df07f6e8749d8d9db2b052aa226f7f472a1

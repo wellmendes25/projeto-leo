@@ -1,6 +1,3 @@
-// pages/quem-somos.js
-<<<<<<< HEAD
-=======
 import React from 'react';
 import estilos from './quemSomos.module.css';
 import Image from 'next/image';
@@ -49,4 +46,3 @@ export default function QuemSomos() {
 };
 
 
->>>>>>> dacbef88347d6747e85835cbdf0df7e3ad2864ab

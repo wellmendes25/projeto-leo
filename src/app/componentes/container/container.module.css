@@ -1,0 +1,23 @@
+.Container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+.Imagem
+{
+    width: 150px;
+    object-fit: cover;
+    height: auto;
+    border-radius: 50%;
+}
+.Texto
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}

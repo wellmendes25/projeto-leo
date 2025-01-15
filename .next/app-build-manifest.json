@@ -12,22 +12,11 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/componentes/contatos/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/componentes/contatos/page.css",
-      "static/chunks/app/componentes/contatos/page.js"
-    ],
     "/componentes/quemSomos/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/componentes/quemSomos/page.css",
       "static/chunks/app/componentes/quemSomos/page.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

@@ -1,23 +1,72 @@
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/componentes/quemSomos/quemSomos.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/componentes/quemSomos/quemSomos.module.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************/
 /* styles/quem-somos.css */
-.quemSomos_main__CkAYX {
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .quemSomos_main__CkAYX h1 {
-    color: #333;
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  .quemSomos_main__CkAYX p {
-    color: #555;
-    font-size: 1.1rem;
-  }
-  
+.quemSomos_Section__A6ea2
+{
+  width: 100%;
+  height: 100vh;
+  background-color: #BF6734;
+}
+.quemSomos_Conteiner__bTjOL
+{
+  display:flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.quemSomos_Texto__VyuBJ
+{
+  width: 40%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  gap: 20px;
+  padding: 40px 20px;
+  border-radius: 5px;
+}
+.quemSomos_Texto__VyuBJ h1
+{
+  text-shadow: 7px 1px 2px black;
+  color: #F29F05;
+  font-size: 60px;
+}
+.quemSomos_Texto__VyuBJ p
+{
+  font-size: 20px;
+  color: white;
+}
+.quemSomos_Texto__VyuBJ:hover
+{
+  cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/componentes/container/container.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.container_Container__kf9Mc
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+.container_Imagem__au6KV
+{
+    width: 150px;
+    object-fit: cover;
+    height: auto;
+    border-radius: 50%;
+}
+.container_Texto__vBHxb
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}

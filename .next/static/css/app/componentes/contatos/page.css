@@ -1,5 +1,5 @@
 /*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/componentes/contatos/contatos.module.css ***!
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/componentes/contatos/contatos.module.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************/
 /* banner */
 .contatos_head__Yv4Ub{
@@ -8,7 +8,7 @@
     background-image: url(/_next/static/media/banner-contato.33f7641d.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     box-shadow: 0px 3px 2px 0px #5858585c;
     position: relative;
     font-weight: bold;
@@ -222,6 +222,7 @@
     background-color: #f9a316;
 }
 
+
 /* responsividade */
 
 @media (max-width:1435px){
@@ -323,5 +324,4 @@
         display: none;
     }
 }
-
 

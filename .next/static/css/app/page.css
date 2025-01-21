@@ -1,0 +1,305 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_main_container__7Fj6k{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.page_video_main__2M6re{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.page_main_container__7Fj6k h1{
+    font-size: 150px;
+    color: #F29F05;
+    position: absolute;
+    text-transform: uppercase;
+    text-shadow: 7px 1px 2px black;
+
+}
+
+/* segunda seção */
+
+.page_container_section__x9foM{
+    padding: 50px 0px;   
+     background-color: #BF6734;
+    
+}
+
+
+.page_in__b49Hj{
+    width: 70%;
+    margin: auto;
+}
+
+.page_div_in_section__BgR6c{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    color: aliceblue;
+}
+
+.page_div_in_section__BgR6c .page_container_p__Bm6Eq{
+    display: flex;
+    width: 350px;
+    margin: 10px auto;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #7B480A; 
+}
+
+.page_div_in_section__BgR6c .page_container_p__Bm6Eq h2{
+    color: #F2E205;
+    font-size: 29px;
+    padding-bottom: 10px;
+}
+
+.page_div_in_section__BgR6c .page_container_p__Bm6Eq p{
+    color: rgb(231, 226, 226);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.page_container_p__Bm6Eq:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  
+}
+
+
+.page_container_section__x9foM h1{
+    padding: 50px 0px;
+    color: #F2E205;
+    text-align: center;
+    font-size: 62px;
+    text-shadow: 4px 2px 1px black;
+    
+   
+}
+
+.page_div_in_section__BgR6c h2{
+    text-align: center;
+    margin-bottom: 20x;
+  
+}
+
+
+
+/* carousel */
+
+.page_carousel__AwKOi{
+    margin:  auto;
+    padding: 50px 0px;
+    width: 70%;
+    border-radius: 15px;
+}
+
+
+
+/* responsividade */
+
+@media (max-width:1540px) {
+    .page_carousel__AwKOi{
+        margin: auto;
+        padding: 20px;
+        width: 90%;
+        border-radius: 15px;
+    }
+
+
+}
+
+@media (max-width:1146px) {
+    .page_carousel__AwKOi{
+        margin: auto;
+        padding: 20px;
+        width: 90%;
+        border-radius: 15px;
+    }
+
+
+}
+
+@media (max-width:950px) {
+
+    .page_main_container__7Fj6k h1{
+        font-size: 120px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 7px 1px 2px black;
+      
+    }
+    
+
+    .page_carousel__AwKOi{
+        margin: auto;
+        padding: 20px;
+        width: 60%;
+        border-radius: 15px;
+    }
+
+
+    .page_second_section__ii8u2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+
+@media (max-width:700px) {
+
+    .page_main_container__7Fj6k h1{
+        font-size: 100px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 7px 1px 2px black;
+      
+    }
+    
+
+    .page_carousel__AwKOi{
+        margin: auto;
+        padding: 20px;
+        width: 80%;
+        border-radius: 15px;
+    }
+
+    
+}
+
+@media (max-width: 500px) {
+
+    .page_main_container__7Fj6k h1{
+        font-size: 80px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 7px 1px 2px black;
+      
+    }
+    
+
+    .page_carousel__AwKOi{
+        margin: auto;
+        padding: 20px;
+        width: 90%;
+        border-radius: 15px;
+    }
+
+    .page_main_container__7Fj6k h1{
+        font-size: 60px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 4px 1px 2px black;
+      
+    }
+}
+
+@media (max-width:300px) {
+    .page_main_container__7Fj6k h1{
+        font-size: 50px;
+        color: #F29F05;
+        position: absolute;
+        text-transform: uppercase;
+        text-shadow: 2px 1px 2px black;
+      
+    }
+    
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./src/app/componentes/carousel/carousel.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+
+
+.carousel_imageContainer__m350W {
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.carousel_slider__n_YuK{
+    
+    width: 30%;
+}
+
+
+
+/* responsividade */
+@media (max-width: 1280px) {
+    .carousel_imageContainer__m350W {
+        width: 100%; 
+        height: auto;
+      
+    }
+
+    .carousel_slider__n_YuK{
+    
+        width: 40%;
+    }
+    
+
+}
+
+@media (max-width: 980px) {
+    .carousel_imageContainer__m350W {
+        width: 100%; 
+        height:auto;
+      
+    }
+
+    .carousel_slider__n_YuK{
+    
+        width:50%;
+        
+    }
+}
+
+@media (max-width: 580px) {
+    .carousel_imageContainer__m350W {
+        width: 100%; 
+        height: auto;
+      
+    }
+
+    .carousel_slider__n_YuK{
+    
+        width:70%;
+        
+    }
+}
+
+@media (max-width: 450px) {
+    .carousel_imageContainer__m350W {
+        width: 100%; 
+        height: auto;
+       
+      
+    }
+
+    .carousel_slider__n_YuK{
+    
+        width:90%;
+        
+    }
+}

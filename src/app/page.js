@@ -32,20 +32,28 @@ export default function Home() {
 
     gsap.fromTo(title.current, 
       {opacity: 0, x: "-500px",},
-      {opacity: 1, x: "0px", duration: 1, scrollTrigger: {trigger: section.current, start: "top 10%", end: "top -20%",scrub: true}
+      {opacity: 1, x: "0px", duration: 1, scrollTrigger: {trigger: section.current, start: "top 10%", end: "top -20%",scrub: true, once: true}
   })
 
   gsap.fromTo(title2.current, 
     {opacity: 0,x: "-500px",},
-    {opacity: 1,x: "0px",duration: 1,scrollTrigger: {trigger: section2.current,start: "top 80%", end: "top 60%", scrub: true}
+    {opacity: 1,x: "0px",duration: 1,scrollTrigger: {trigger: section2.current,start: "top 80%", end: "top 60%", scrub: true, once: true}
 })
 
  divs.forEach((div, index) => {
-  timeLine.fromTo(div.current, { opacity: 0, x: "-500px" },
-    { opacity: 1, x: "0px" 
+  gsap.fromTo(div.current, { opacity: 0, x: "-500px" },
+    { opacity: 1, x: "0px" ,  scrollTrigger: {
+          trigger: div.current,
+          start: "top 80%",
+          end: "top 60%",  
+          scrub: true,  
+          once: true,
+        
+        }
           
     })
  })
+ 
 
   }, [])
 

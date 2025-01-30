@@ -1,7 +1,6 @@
 'use client';
 import { useState } from "react";
 import estilos from './menuHamburguer.module.css';
-import { CiMenuBurger } from "react-icons/ci";
 import Navegacao from "../links";
 import { CiMenuFries } from "react-icons/ci";
 import { MdOutlineClose } from "react-icons/md";

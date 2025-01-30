@@ -1,0 +1,522 @@
+/* banner */
+.head{
+    height: 41vh;
+    width: 100%;
+    background-image: url("../../../../public/banner-contato.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 3px 2px 0px #5858585c;
+    position: relative;
+    font-weight: bold;
+}
+.bannerh1{
+    position: absolute;
+    color: white;
+    width: 20%;
+    top: 10%;
+    left: 3%;
+    font-size: 150%;
+}
+.hone{
+    font-size: 4em;
+    position: absolute;
+    color: white;
+    top: 22%;
+    left: 15%;
+}
+.htwo{
+    position: absolute;
+    color: white;
+    background-color: black;
+    height: 8vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 150%;
+    top: 68%;
+    left: 3%;
+}
+.bannertwo{
+    background-color: black;
+    position: absolute;
+    color: rgb(255, 68, 35);
+    height: 8vh;
+    width: 15%;
+    display: flex;
+    font-size: 190%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 68%;
+    left: 30%;
+}
+
+/* cards */
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 3em;
+    background-color: #BF6734;
+}
+.main{
+    height: 180vh;
+    width: 100%;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    height:40vh;
+    width: 100%;
+    background-color: #BF6734;
+}
+.conteudoone, .conteudothree{
+    background-color: #fbff0b;
+    border-radius: 10px 0 0 10px ;
+    width: 23%;
+    height: 23vh;
+    padding-top: 35px;
+}
+.conteudotwo{
+    background-color:#ff9d00;
+    border-radius: 10px;
+    width: 25%;
+    height: 25vh;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.conteudothree{
+    background-color: #fbff0b;
+    border-radius: 0 10px 10px 0 ;
+    width: 23%;
+    height: 23vh;
+    padding-top: 35px;
+}
+.buttoncard{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 5px;
+    height: 5vh;
+    width: 10vw;
+    background-color: #ededed;
+    border: 3px solid rgb(23, 23, 23);
+    margin-top: 15px;
+    border-radius: 7px;
+    color: #000000;
+}
+
+/* hover cards */
+
+.conteudoone:hover, .conteudothree:hover{
+    margin:10px 10px 10px 10px;
+    color: rgb(255, 81, 0);
+    font-size: 30px;
+    margin-top: 15px;
+    height: 26vh;
+    transition: all 0.7s ease;
+}
+.conteudotwo:hover{
+    margin:10px 10px 10px 10px;
+    color: rgb(255, 238, 0);
+    height: 28vh;
+    font-size: 31px;
+    transition: all 0.7s ease;
+}
+.buttoncard:hover {
+    background-color: #000000;
+    padding-top: 6px;
+    color: #ededed;
+    width: 12vw;
+    height: 6vh;
+}
+
+/* localização e formulario */
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 65vh;
+    width: 100%; 
+    background-color: #BF6734;
+}
+.formu{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 52vh;
+    width: 31%;
+    margin-left: 15px;
+}
+.boxmaps{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 52vh;
+    width: 31%;
+    margin-right: 15px;
+}
+.maps{
+    border-radius: 2%;
+}
+.formulary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+    margin-right: 25px;
+    width: 30%;
+    height: 50vh;
+    border: none;
+    color: #000;
+}
+.form{
+    border-radius: 2%;
+    height: 51vh;
+    background-color: #f3f3f3f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    position: relative;
+    box-shadow: 0 0 10px rgb(230, 255, 2), 0 0 20px rgb(126, 140, 3);
+    animation: neon-glow 2s infinite alternate;
+}
+@keyframes neon-glow {
+    from {
+        box-shadow: 0 0 10px rgb(255, 115, 1), 0 0 20px rgb(255, 158, 2);
+    }
+    to {
+        box-shadow: 0 0 20px rgb(244, 255, 95), 0 0 40px rgb(255, 238, 0);
+    }
+}
+.input {
+    background-color: #cfcfcf6b;
+    text-align: center;
+    border-radius: 10px;
+    height: 32px;
+    width: 25vw;
+    margin: 16px 0 16px 0;
+    font-weight: bold;
+    font-size: 23px;
+    color: #000;
+}
+.text{
+    width: 25vw;
+    height: 100px;
+    color: #000;
+    font-size: 35px;
+    text-align: center;
+    background-color: #cfcfcf6b;
+}
+.button{
+    background-color: #9c9b98;
+    border-radius: 10px;
+    width: 70%;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    font-size: 25px;
+    color: #000000;
+    margin: 16px 0 0 0;
+}
+.button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #fb9e0a;
+}
+
+
+/* responsividade */
+
+@media (max-width:1435px){
+    .bannerh1 {
+        width: 27%;
+    }
+    .hone{
+        font-size: 3em;
+        top: 28%;
+        left: 14%;
+    }
+    .htwo{
+        font-size: 100%;
+    }
+    .bannertwo{
+        font-size: 160%;
+    }
+    .conteudoone, .conteudothree{
+        width: 25%;
+        height: 25vh;
+    }
+    .conteudotwo{
+        width: 25%;
+        height: 28vh;
+    }
+    .buttoncard{
+        font-size: 25px;
+    }
+    .formu{
+        width: 35%;
+    }
+    .input, .text, .button{
+        margin-left: 25px;
+    }
+    .form{
+        width: 90%;
+        height: 55vh;
+    }
+    .maps{
+        height: 55vh;
+    }
+}
+@media (max-width:1319px){
+    .bannerh1 {
+        width: 30%;
+    }
+    .hone{
+        font-size: 40px;
+        top: 28%;
+        left: 15%;
+    }
+    .buttoncard{
+        font-size: 20px;
+    }
+}
+@media (max-width:1195px){
+    .head{
+        height: 35vh;
+    }
+    .bannerh1 {
+        width: 35%;
+        font-size: 20px;
+        top: 15%;
+    }
+    .hone{
+        font-size: 35px;
+        top: 35%;
+        left: 12%;
+    }
+    .htwo{
+        font-size: 15px;
+        height: 7vh;
+        width: 20%;
+        left: 7%;
+    }
+    .bannertwo{
+        font-size: 20px;
+        height: 7vh;
+    }
+    .conteudoone, .conteudothree{
+        width: 30%;
+        height: 25vh;
+    }
+    .conteudotwo{
+        width: 30%;
+        height: 28vh;
+    }
+    .buttoncard{
+        width: 50%;
+    }
+}
+@media (max-width:937px){
+    .head{
+        height: 30vh;
+    }
+    .bannerh1 {
+        width: 35%;
+        font-size: 16px;
+        top: 15%;
+    }
+    .hone{
+        font-size: 28px;
+        top: 35%;
+        left: 15%;
+    }
+    .htwo{
+        font-size: 13px;
+        width: 22%;
+        left: 5%;
+    }
+    .bannertwo{
+        font-size: 15px;
+        height: 6vh;
+    }
+    .buttoncard{
+        width: 60%;
+    }
+    .contact{
+        height: 130vh;
+        flex-wrap: wrap;
+    }
+    .formu{
+        width: 70%;
+        height: 55vh;
+        padding-bottom: 70px;
+    }
+    .form{
+        padding-bottom: 35px;
+    }
+    .boxmaps{
+        width: 100%;
+        padding-bottom: 85px;
+    }
+    .maps{
+        margin-left: 35px;
+        width: 500px;
+        height: 50vh;
+    }
+    .input, .text, .button{
+        width: 350px;
+    }
+}
+@media (max-width:777px){
+    .head{
+        height: 25vh;
+    }
+    .bannerh1{
+        font-size: 15px;
+    }
+    .hone{
+        font-size: 22px;
+        left: 17%;
+        top: 40%;
+    }
+    .htwo{
+        height: 5vh;
+        width: 35%;
+        left: 10%;
+        top: 72%;
+        font-size: 15px;
+    }
+    .bannertwo{
+        display: none;
+    }
+}
+@media (max-width:695px){
+    .bannerh1{
+        font-size: 15px;
+        top:10%;
+    }
+    .hone{
+        font-size: 20px;
+        text-align: center;
+        width: 220px;
+        height: 7vh;
+        background-color: #000;
+        left: 10%;
+        top: 55%;
+    }
+    .htwo{
+       display: none;
+    }
+}
+@media (max-width:591px){
+    .head{
+        height: 22vh;
+    }
+    .hone{
+        font-size: 17px;
+        width: 200px;
+        height: 6vh;
+        left: 10%;
+        top: 60%;
+    }
+    .buttoncard{
+        width: 75%;
+    }
+    .buttoncard:hover{
+        width: 80%;
+    }
+    .input, .text, .button{
+        width: 300px;
+    }
+    .form{
+        width: 100%;
+    }
+    .maps{
+        width: 75%;
+    }
+}
+@media (max-width:525px){
+    .head{
+       display: none;
+    }
+}
+@media (max-width:492px){
+    .conteudo{
+        height: 88vh;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: space-around;
+    }
+    .conteudoone, .conteudothree{
+        width: 60%;
+        height: 30vh;
+        border-radius: 5% 5%;
+        border: 3px solid rgb(255, 255, 255);
+    }
+    .conteudotwo{
+        border-radius: 5% 5%;
+        width: 60%;
+        border: 3px solid rgb(255, 255, 255);
+    }
+    .contact{
+        height: 130vh;
+    }
+    .formu{
+        padding-top: 85px;
+    }
+}
+@media (max-width:376px){
+    .input, .text, .button{
+        width: 180px;
+    }
+}
+@media (max-width:302px){
+    .conteudo{
+        height: 75vh;
+    }
+    .conteudoone, .conteudothree{
+        width: 75%;
+        height: 25vh;
+        border-radius: 5% 5%;
+        border: 3px solid rgb(255, 255, 255);
+    }
+    .conteudotwo{
+        height: 25vh;
+        border-radius: 5% 5%;
+        width: 75%;
+        border: 3px solid rgb(255, 255, 255);
+    }
+    .formu{
+        height: 60vh;
+        width: 90%;
+    }
+    .form{
+        height: 53vh;
+        border-radius: 5%;
+    }
+    .maps{
+        width: 80%;
+        height: 40vh;
+        border-radius: 10%;
+        margin-right: 30px;
+    }
+    .boxmaps{
+        margin-top: 35px;
+    }
+    .contact{
+        height: 110vh;
+        display: block;
+        
+    }
+}
+
